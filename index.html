@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autumn's Dolls</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__inner">
+        <picture class="nav__logo__container">
+          <img
+            class="nav__logo"
+            alt="logo"
+            src="https://cdn.discordapp.com/attachments/656275458547253269/1144435785437806612/logo-transparent-png.png"
+          />
+        </picture>
+        <ul class="nav__links">
+          <li>
+            <a class="nav__link" href="#"> Features </a>
+          </li>
+
+          <li>
+            <a class="nav__link" href="#"> Brand </a>
+          </li>
+
+          <li>
+            <a class="nav__link" href="#"> Dolls </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="spacer"></div>
+    <main class="main-column">
+      <section class="page-section hero">
+        <h1 class="hero__title">Handcrafted, Beautiful Dolls</h1>
+        <form
+          class="hero__form"
+          action="https://www.freecodecamp.com/email-submit"
+        >
+          <input
+            class="hero__input"
+            type="email"
+            placeholder="Enter your email address"
+            name="email"
+            required
+          />
+          <button class="hero__button" type="submit">GET STARTED</button>
+        </form>
+
+        <ul class="hero__features">
+          <li class="hero__features__row">
+            <img
+              class="hero__features__image"
+              src="https://media.discordapp.net/attachments/656275458547253269/1144835627439882290/Best-Quality-Welcome-Kit-Icon.png?width=670&height=670"
+              alt="badge"
+            />
+
+            <div class="hero__features__text">
+              <h2>Premium Materials</h2>
+              <p>
+                Our Dolls use the strongest ball-joints and are made out of very
+                dense and strong pvc. This will increase the longevity of your
+                purchase.
+              </p>
+            </div>
+          </li>
+
+          <li class="hero__features__row">
+            <img
+              class="hero__features__image"
+              src="https://media.discordapp.net/attachments/656275458547253269/1144835924841205810/shipping_logo-removebg-preview_1.png?width=1025&height=380"
+              alt="truck"
+            />
+
+            <div class="hero__features__text">
+              <h2>Fast Shipping</h2>
+              <p>
+                We make sure you recieve your dolls as soon as we have finished
+                making it. We also provide free returns if you are not
+                satisfied.
+              </p>
+            </div>
+          </li>
+
+          <li class="hero__features__row">
+            <img
+              class="hero__features__image"
+              src="https://media.discordapp.net/attachments/656275458547253269/1144835627871911997/doll_logo-removebg-preview.png?width=335&height=670"
+              alt="doll"
+            />
+
+            <div class="hero__features__text">
+              <h2>Quality Assurance</h2>
+              <p>
+                For every purchase you make, we will ensure there are no damages
+                or faults and we will check and test the movement and durability
+                of your doll.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <div class="spacer"></div>
+
+      <section class="page-section about">
+        <img
+          src="https://www.azone-int.co.jp/us/img/A1.png"
+          alt="azone"
+          class="about__image"
+        />
+
+        <p class="about__description">
+          Azone Label Shop Akihabara Located on the 7th floor of Radio Kaikan
+          Akihabara Tokyo, is one of the biggest dolls stores in the country
+          with a wide variation of dolls and doll supplies.
+        </p>
+
+        <div class="about__video__container">
+          <iframe
+            class="about__video"
+            src="https://www.youtube-nocookie.com/embed/VP0pFPJAFVY?si=OIEUXdmLujBXnYj4"
+            width="400"
+            title="Dolls Unboxing Video"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </section>
+
+      <div class="spacer"></div>
+      <section class="page-section shop">
+        <ul class="shop__list">
+          <li class="shop__item" [data-item-id]="1">
+            <img
+              class="shop__item__image"
+              alt="preview"
+              src="https://img.amiami.com/images/product/main/231/FIGURE-151342.jpg"
+            />
+
+            <div class="shop__item__row">
+              <span class="shop__item__price">405.92 USD</span>
+              <button class="shop__item__button">Buy Now</button>
+            </div>
+          </li>
+
+          <li class="shop__item" [data-item-id]="2">
+            <img
+              class="shop__item__image"
+              alt="preview"
+              src="https://img.amiami.com/images/product/main/231/FIGURE-151343.jpg"
+            />
+
+            <div class="shop__item__row">
+              <span class="shop__item__price">405.92 USD</span>
+              <button class="shop__item__button">Buy Now</button>
+            </div>
+          </li>
+
+          <li class="shop__item" [data-item-id]="3">
+            <img
+              class="shop__item__image"
+              alt="preview"
+              src="https://img.amiami.com/images/product/main/223/FIGURE-144797.jpg"
+            />
+
+            <div class="shop__item__row">
+              <span class="shop__item__price">142.82 USD</span>
+              <button class="shop__item__button">Buy Now</button>
+            </div>
+          </li>
+
+          <li class="shop__item" [data-item-id]="4">
+            <img
+              class="shop__item__image"
+              alt="preview"
+              src="https://img.amiami.com/images/product/main/232/FIGURE-155340.jpg"
+            />
+
+            <div class="shop__item__row">
+              <span class="shop__item__price">414.12 USD</span>
+              <button class="shop__item__button">Buy Now</button>
+            </div>
+          </li>
+
+          <li class="shop__item" [data-item-id]="5">
+            <img
+              class="shop__item__image"
+              alt="preview"
+              src="https://img.amiami.com/images/product/main/232/FIGURE-155339.jpg"
+            />
+
+            <div class="shop__item__row">
+              <span class="shop__item__price">414.12 USD</span>
+              <button class="shop__item__button">Buy Now</button>
+            </div>
+          </li>
+
+          <li class="shop__item" [data-item-id]="6">
+            <img
+              class="shop__item__image"
+              alt="preview"
+              src="https://img.amiami.com/images/product/main/223/FIGURE-142933.jpg"
+            />
+
+            <div class="shop__item__row">
+              <span class="shop__item__price">414.12 USD</span>
+              <button class="shop__item__button">Buy Now</button>
+            </div>
+          </li>
+
+          <li class="shop__item" [data-item-id]="7">
+            <img
+              class="shop__item__image"
+              alt="preview"
+              src="https://img.amiami.com/images/product/main/231/FIGURE-150475.jpg"
+            />
+
+            <div class="shop__item__row">
+              <span class="shop__item__price">414.12 USD</span>
+              <button class="shop__item__button">Buy Now</button>
+            </div>
+          </li>
+
+          <li class="shop__item" [data-item-id]="8">
+            <img
+              class="shop__item__image"
+              alt="preview"
+              src="https://img.amiami.com/images/product/main/231/FIGURE-150476.jpg"
+            />
+
+            <div class="shop__item__row">
+              <span class="shop__item__price">414.12 USD</span>
+              <button class="shop__item__button">Buy Now</button>
+            </div>
+          </li>
+
+          <li class="shop__item" [data-item-id]="9">
+            <img
+              class="shop__item__image"
+              alt="preview"
+              src="https://img.amiami.com/images/product/main/224/FIGURE-146927.jpg"
+            />
+
+            <div class="shop__item__row">
+              <span class="shop__item__price">414.12 USD</span>
+              <button class="shop__item__button">Buy Now</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <div class="spacer"></div>
+    </main>
+  </body>
+</html>
